@@ -91,7 +91,7 @@ result.to_csv("gene_top2_enrichment.tsv", sep="\t", index=False)
 
 The output looks like following 
 
-```
+```txt
 Gene    Gene name       highest_Tissue:CellType highest_log2_enrichment_penalized       runners_up_Tissue:CellType      runners_up_log2_enrichment_penalized    ratio
 ENSG00000000003 TSPAN6  testis:late spermatids  7.093081007217921       esophagus:esophageal apical cells       6.157569660424798       1.1519286664031965
 ENSG00000000005 TNMD    breast:vascular endothelial cells       6.877755591875127       adipose tissue:adipocytes       4.802532933968559       1.4321100316102808
